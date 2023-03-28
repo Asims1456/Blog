@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "off",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/structure": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "meta-viewport": "off"
+  }
+}
